@@ -3,6 +3,6 @@ defmodule ExampleTestAsyncTest do
   doctest ExampleTestAsync
 
   test "run" do
-    assert {:ok, _} = ExampleTestAsync.run()
+    assert 42 = ExampleTestAsync.run()
   end
 end
